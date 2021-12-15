@@ -1,1 +1,103 @@
+:root {
+    --clr-background: #FFFDF1;
+    --clr-accent: #D9AF8B;
+    --clr-heading: #8C3C2A;
+    --clr-othertext: #733B27;
 
+    --ff-logo: "Eloquent-JF-pro";
+    --ff-headings: "Bely-display";
+    --ff-paragraphs: "Muli";
+}
+
+body {
+    background-color: var(--clr-background);
+    margin: 0px;
+}
+
+.top {
+    background-image: url("photos/ph4.jpg");
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+
+
+
+h1{
+    font-family: eloquent-jf-pro, serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 2.5rem;
+    color: #8C3C2A;
+}
+
+
+
+h2 {
+    font-family: bely-display, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--clr-heading);
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+h3 {
+    font-family: bely-display, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--clr-othertext);
+    font-size: 2rem;
+}
+
+p {
+    font-family: muli, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: var(--clr-othertext);
+}
+
+.social {
+    max-height: 2.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.clip-circle {
+    clip-path: circle(16.5% at 52% 34%);
+    height: 370px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -5rem; 
+    position: relative;
+    z-index: 2;
+}
+
+.about {
+    background-color: var(--clr-background);
+    width: 30rem;
+    height: 2rem;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5rem;
+    padding: 5rem;
+    margin-top: -15rem;
+    text-align: center;
+    position:relative;
+    z-index: 1;
+    opacity: 58%;
+}
+/* front pictures */
+.column {
+    width: 33.33%;
+    padding: 5px;
+    display: inline-block;
+    position: relative;
+  }
