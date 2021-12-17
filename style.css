@@ -20,6 +20,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
+    margin-bottom: 7rem;
     
 }
 
@@ -95,9 +96,27 @@ p {
     opacity: 58%;
 }
 /* front pictures */
-.column {
-    width: 33.33%;
-    padding: 5px;
-    display: inline-block;
-    position: relative;
+
+
+  .photo {
+      width: 350px;
+      height: 250px;
+      overflow: none;
+      margin-top: 40rem;
+      object-fit: cover;
+      background-color: var(--clr-accent);
+      padding: 1rem;
+      justify-content: center;
   }
+
+  .photos {
+      background-color: var(--clr-accent);
+      padding: 2rem;
+      float: left;
+      }
+
+.phheading {
+float: right;
+
+}
+ 
